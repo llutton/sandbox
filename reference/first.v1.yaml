@@ -1,0 +1,26 @@
+openapi: 3.0.0
+tags:
+  - name: "Aardvark"
+  - name: "Badger"
+info:
+  title: first
+  version: '1.0'
+  contact:
+    name: Lawrence M. Lutton
+    email: lmlutton@gmail.com
+  description: Great Description!
+  termsOfService: 'http://mabelsoft.com/terms_of_service'
+  license:
+    name: All Rights Reserved
+servers:
+  - url: 'http://localhost:3000'
+paths: {}
+components:
+  schemas: {}
+  securitySchemes:
+    API Key:
+      name: apiKey
+      type: apiKey
+      in: header
+security:
+  - API Key: []

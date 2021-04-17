@@ -1,0 +1,17 @@
+{
+  "title": "ToDos",
+  "type": "object",
+  "x-examples": {
+    "example-1": {
+      "id": "string"
+    }
+  },
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    }
+  }
+}
